@@ -1,0 +1,98 @@
+            #bloc{
+                height: 82px;
+                width: inherit;
+                background-color: grey;
+                box-shadow: 3px 13px 37px black;
+                border-radius: 0px 0px 40px 40px;
+            }
+            #hst{
+                color: white;
+                display: inline;
+                padding-left: 145px;
+                font-size: 50px;
+                font-family: cursive;
+                position: relative;
+                top: 3px;
+                text-shadow: 5px 5px 5px black;
+
+            }
+            #tdd{
+                padding-left: 900px;
+            }
+            #divt{
+                padding-left: 760px;
+                position: relative;
+                bottom: 66px;
+                color: white;
+            }
+            #buts{
+                color: white;
+                background:cadetblue;
+                font-weight: bolder;
+                font-style: italic;
+                text-shadow: 3px 1px 1px darkslategrey;
+            }
+            #ldiv{
+                background-color: dimgray;
+                display: inline;
+                color: white;
+            }
+            #lst{
+                font-family:serif;
+                font-size: 15px;
+            }
+            #cre{
+                color: white;
+                padding-left: 770px;
+                margin: 7px;
+                
+            }
+            #crf{
+                position: relative;
+                font-size: 23px;
+                left: 780px;
+                margin-top: 6px;
+                font-family: serif;
+                color: white;
+            }
+            #reg{
+                position: relative;
+                left: 780px;
+               
+            }
+            #regs{
+                border-radius: 5px 5px 5px 5px;
+                text-align: left;
+                width: 200px;
+                height: 28px;
+                font-family: cursive;
+                font-size: 25px;
+                border: 1px solid dimgray;
+                
+            }
+            #regt{
+                border-radius: 5px 5px 5px 5px;
+                width: 405px;
+                height: 28px;
+                font-size: 25px;
+                font-family: cursive;
+                margin-top: 10px;
+                border: 1px solid dimgray;
+            }
+            #reh{
+                width: 55px;
+                height: 40px;
+            }
+            #crg{
+                position: relative;
+                left: 780px;
+                margin-top: 10px;
+                width: 114px;
+                height: 45px;
+                background: cadetblue;
+                color: white;
+                font-size: 20px;
+                font-family: cursive;
+                border: 1px solid dimgray;
+                border-radius: 5px 26px;
+            }
