@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create new repo</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        #logo{
+            width: 88px;
+            height: 30px;
+            background-image: url(p.png);
+            position: relative;
+            top: 13px;
+            margin-left: 10px;
+            border-radius: 5px;
+            box-shadow:6px 4px 8px black;
+        }
+    </style>
+    <body style="margin: 0px;">
+        <div class="page-container">
+            <div class="header-container" style="width: 100%;height: 63px;background: rgb(26, 26, 26);">
+                <div class="logo-container" id="logo">
+                    <input style="float: left;margin-left: 96px;margin-top: 3px;background: #24292e;border-radius: 3px;height: 24px;border: none;width: 215px;color: white;" type="text" placeholder="   Search or jump to..                     //">
+                    <a href="#" style="text-decoration: none;color: white;margin-left: 335px;float: left;margin-top: -21px;font-family: sans-serif;">Pullrequests</a>
+                    <a href="#" style="text-decoration: none;color: white;margin-left: 435px;float: left;margin-top: -21px;font-family: sans-serif;">Issues</a>
+                    <a href="#" style="text-decoration: none;color: white;margin-left: 495px;float: left;margin-top: -21px;font-family: sans-serif;">Marketplace</a>
+                    <a href="#" style="text-decoration: none;color: white;margin-left: 595px;float: left;margin-top: -21px;font-family: sans-serif;">Explore</a>
+                </div>
+                <div class="logut-container">
+                        <i class="fa fa-bell" aria-hidden="true" style="color: white;float: right;margin-right: 153px;font-size: 1.40rem;margin-top: -8px;"></i>
+                        <i class="fa fa-plus" aria-hidden="true" style="color: white;margin-top: -6px;float: right;margin-right: -74px;font-size: 1.40rem;">
+                            <select style="color:white;background: none;border: none;width: 10px;">
+                                <option >New Repo</option>
+                                <option >Edit Repo</option>
+                                <option >Clone Repo</option>
+                            </select>
+                        </i>
+                        <i class="fa fa-user-o" aria-hidden="true" style="color: white;margin-top: -7px;float: right;margin-right: -116px;font-size: 1.40rem;">
+                                <select style="color:white;background: none;border: none;width: 10px;">
+                                        <option >Signed </option>
+                                        <option >Your profile</option>
+                                        <option >Your repos</option>
+                                    </select>
+                        </i>
+                </div>
+            </div>
+            <div class="body-container" style="width: 800px;height: 1000px;margin-left: 290px;margin-top: 44px;margin-bottom: 134px;padding: 7px;">
+                <div class="subhead-container" style="border-bottom:1px solid #e1e4e8;padding-bottom: 9px;">
+                    <h2 style="font-size: 24px;font-weight: 400;color: #24292e;margin: 0px;font-family: sans-serif;">Create a new repo:)</h2>
+                    <p class="subhead-description-container" style="margin: 0px;margin-top: 3px;font-family: sans-serif;font-size: 0.9rem;">A repo contains all of your files,folders,icluding the version history.Already have a project else where?</p>
+                    <a href="#" style="text-decoration: none;font-family: sans-serif;font-size: 0.9rem;color: #0366d6;">Import a repo.</a>
+                </div>
+                <div class="repo-own-conianer" style="margin-top: 30px;"> 
+                    <label style="font-family: sans-serif;font-weight: 550;font-size: 15px;color: #24292e;">Owner</label>
+                    <label style="font-family: sans-serif;font-weight: 550;font-size: 15px;color: #24292e;margin-left: 106px;">Repo Name</label>
+                    <div style="margin-top: 10px;border-bottom: 1px solid #e1e4e8; padding-bottom: 9px;">
+                    <select style="font-family: cursive;background: aliceblue;border-radius: 4px;width: 141px;height: 34px;border: 1px solid cadetblue;background: #eff3f6;">
+                        <option>Venkatpathiraju</option>
+                        <option>Venkatpathiraju</option>
+                        <option>Venkatpathiraju</option>
+                    </select>      /
+                    <input type="text" style="border-radius: 4px;width: 254px;height: 29px;background: #eff3f6;border: 1px solid cadetblue;">
+                    <p class="subhead-description-container" style="margin: 0px;margin-bottom:20px;margin-top: 3px;font-family: sans-serif;font-size: 0.9rem;">Great repo names are short and memorable.Need inspiration? How about your <b>Girlfirnd name;)</b></p>
+                    <label style="font-family: sans-serif;font-weight: 550;font-size: 15px;color: #24292e;">Description</label>
+                    <div>
+                    <input type="text" style="border-radius: 4px;width: 649px;height: 29px;background: #fafbfc;border: 1px solid cadetblue;margin-top: 12px;">
+                    </div>
+                    </div>
+                    <div class="radio-containeer" style="margin-top: 17px;margin-top: 17px;padding-bottom:9px;border-bottom: 1px solid #e1e4e8;">
+                     <input type="radio" name="red">
+                     <i class="fa fa-book" aria-hidden="true"></i>
+                    <label style="font-family: sans-serif;font-weight: 550;font-size: 15px;color: #24292e;">Public
+                    </label>
+                    <div>
+                    <span>Any one can see this repo.</span>
+                    </div>
+                    <div style="margin-top: 38px;">
+                    <input type="radio" name="red">
+                     <i class="fa fa-lock" aria-hidden="true"></i>
+                    <label style="font-family: sans-serif;font-weight: 550;font-size: 15px;color: #24292e;">Private
+                    </label>
+                    <div>
+                    <span>You choose you can see and commit</span>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="readme-container" style="margin-top: 10px;margin-top: 10px;border-bottom: 1px solid #e1e4e8;padding: 9px;">
+                    <span>Skip this step,if you're importing exising repo.</span>
+                       <div class="checkbox-container" margin>
+                           <input type="checkbox">
+                           <b><span>Initialize this repo with a README</span></b>
+                           <div>
+                           <p class="subhead-description-container" style="margin: 0px;margin-bottom:20px;margin-top: 3px;font-family: sans-serif;font-size: 0.9rem;">This will let you immediately clone the repository to your computer.</p>
+                           <select style="font-family: cursive;background: aliceblue;border-radius: 4px;width: 150px;height: 34px;border: 1px solid cadetblue;background: #eff3f6;">
+                                <option>Add .gitignore:<b><span>None</span></b></option>
+                                <option>Venkatpathiraju</option>
+                                <option>Venkatpathiraju</option>
+                            </select>    ||
+                            <select style="font-family: cursive;background: aliceblue;border-radius: 4px;width: 150px;height: 34px;border: 1px solid cadetblue;background: #eff3f6;">
+                                    <option>Add a liecence:<b><span>None</span></b></option>
+                                    <option>Venkatpathiraju</option>
+                                    <option>Venkatpathiraju</option>
+                                </select>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="but-container" style="border-bottom: 1px solid #e1e4e8 ; padding-bottom: 9px;">
+                    <button style="margin-top:15px;width: 123px;height: 31px;background: #48b962;border-radius: 4px;color: white;font-size: 17px;">Create repo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa fa-copyright" aria-hidden="true">Copy rights vbm info tech@2019</i>
+    </body>
+</html>
