@@ -1,0 +1,9 @@
+.col-md-1,.col-md-10{
+    background:crimson;   
+}
+a[href="#"]{
+    color:white
+}
+.container{
+    max-width:28%
+}

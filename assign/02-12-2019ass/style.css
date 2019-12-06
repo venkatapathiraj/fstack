@@ -1,0 +1,14 @@
+.set{
+    position: absolute;
+    top: 50px;
+    right: 8px;
+    width:135px;
+}
+.list-group-item:hover{
+    background: blanchedalmond;
+
+}
+.carousel-item{
+    max-height: 600px;
+    
+}

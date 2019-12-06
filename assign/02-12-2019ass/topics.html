@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid d-flex justify-content-between p-2 bg-dark">
+        <img class="rounded" src="./logo.jpg" height="40px" width="130px" alt="">
+        <div class="d-flex">
+            <input class="form-control" type="text" class="`form-control" placeholder="Search....">
+            <div class="dropdown ml-2">
+                <button class="btn btn-warning dropdown-toggle text-white " type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VBM InfoTech
+                </button>
+                <div class="dropdown-menu bg-warning " aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item text-dark" href="#">HTML</a>
+                    <a class="dropdown-item text-dark" href="#">CSS</a>
+                    <a class="dropdown-item text-dark" href="#">Bootstrap</a>
+                    <a class="dropdown-item text-dark" href="#">JavaScript</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3 p-0">
+        <div class="card bg-secondary ">
+            <div class="card-header">
+                <h5 class="card-title text-white text-center">Topics Covered</h5>
+            </div>
+            <div class="card-body">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header text-center text-dark" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    HTML
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body bg-primary">
+                                <ol class="list-group text-center">
+                                    <li class="list-group-item text-center">HTML structure</li>
+                                    <li class="list-group-item text-center text-dark">Types of Elements</li>
+                                    <li class="list-group-item text-center text-dark">Table</li>
+                                    <li class="list-group-item text-center text-dark">List-Types</li>
+                                    <li class="list-group-item text-center text-dark">Image</li>
+                                    <li class="list-group-item text-center text-dark">Background</li>
+                                    <li class="list-group-item text-center text-dark">Color</li>
+                                    <li class="list-group-item text-center text-dark">Style</li>
+                                    <li class="list-group-item text-center text-dark">Attribute</li>                                    
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    CSS
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body bg-warning">
+                                <ol class="list-group">
+                                    <li class="list-group-item text-center">Integration of CSS</li>
+                                    <li class="list-group-item text-center">Using Link Tag</li>
+                                    <li class="list-group-item text-center">Inline CSS</li>
+                                    <li class="list-group-item text-center">Internal CSS</li>
+                                    <li class="list-group-item text-center">Extranal CSS</li>
+                                    <li class="list-group-item text-center">Using Style Attribute</li>
+                                    <li class="list-group-item text-center">Using Multiple CSS Properties</li>
+                                    <li class="list-group-item text-center">Margin</li>
+                                    <li class="list-group-item text-center">Padding</li>
+                                    <li class="list-group-item text-center">Width</li>
+                                    <li class="list-group-item text-center">Height</li>
+                                    <li class="list-group-item text-center">Boxmodel</li>
+                                    <li class="list-group-item text-center">Text-Transform</li>
+                                    <li class="list-group-item text-center">Font-size</li>
+                                    <li class="list-group-item text-center">Font-weight</li>
+                                    <li class="list-group-item text-center">Border</li>
+                                    <li class="list-group-item text-center">Border-radius</li>
+                                    <li class="list-group-item text-center">Display</li>
+                                    <li class="list-group-item text-center">Position</li>
+                                    <li class="list-group-item text-center">Float</li>
+                                    <li class="list-group-item text-center">Overflow</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center" id="headingThree">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Bootstrap
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body bg-secondary">
+                                <ol class="list-group">
+                                    <li class="list-group-item text-center">Alerts</li>
+                                    <li class="list-group-item text-center">Badges</li>
+                                    <li class="list-group-item text-center">Buttons</li>
+                                    <li class="list-group-item text-center">Breadcrumb</li>
+                                    <li class="list-group-item text-center">Cards</li>
+                                    <li class="list-group-item text-center">Dropdown</li>
+                                    <li class="list-group-item text-center">Button-Groups</li>
+                                    <li class="list-group-item text-center">Forms</li>
+                                    <li class="list-group-item text-center">Input</li>
+                                    <li class="list-group-item text-center">Navs</li>
+                                    <li class="list-group-item text-center">Navbar</li>
+                                    <li class="list-group-item text-center">collapse</li>
+                                    <li class="list-group-item text-center">Accordian</li>
+                                    <li class="list-group-item text-center">Modal</li>
+                                    <li class="list-group-item text-center">Carousel</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

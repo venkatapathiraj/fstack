@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid d-flex justify-content-between p-2 bg-dark">
+        <img class="rounded" src="./logo.jpg" height="40px" width="130px" alt="">
+        <div class="d-flex">
+            <input class="form-control" type="text" class="`form-control" placeholder="Search....">
+            <div class="dropdown ml-2">
+                <button class="btn btn-warning dropdown-toggle text-white " type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    VBM InfoTech
+                </button>
+                <div class="dropdown-menu bg-warning " aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item text-dark" href="#">HTML</a>
+                    <a class="dropdown-item text-dark" href="#">CSS</a>
+                    <a class="dropdown-item text-dark" href="#">Bootstrap</a>
+                    <a class="dropdown-item text-dark" href="#">JavaScript</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <table class="table table-striped text-center">
+            <thead>
+                <tr>
+                    <th>S.Id</th>
+                    <th>Name</th>
+                    <th>PhoneNumber</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Raj</td>
+                    <td>0987654954</td>
+                    <td>raj@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal" data-target="#exampleModal">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Raj</td>
+                                                    <td>CSE</td>
+                                                    <td>680</td>
+                                                    <td>66.6%</td>
+                                                    <td>A</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-info">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>jai</td>
+                    <td>0987655645</td>
+                    <td>Jai@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal1">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal1" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Jai</td>
+                                                    <td>CSE</td>
+                                                    <td>980</td>
+                                                    <td>98.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-info">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Shiva</td>
+                    <td>09845675345</td>
+                    <td>shiva@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal2">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Shiva</td>
+                                                    <td>ECE</td>
+                                                    <td>880</td>
+                                                    <td>88.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Dorababu</td>
+                    <td>09845656787</td>
+                    <td>dorababu@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal3">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal3" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Dora</td>
+                                                    <td>MBA</td>
+                                                    <td>900</td>
+                                                    <td>90%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>venky</td>
+                    <td>09843458987</td>
+                    <td>venky@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal4">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal4" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>venky</td>
+                                                    <td>ECE</td>
+                                                    <td>880</td>
+                                                    <td>88.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Shiva</td>
+                    <td>09845675345</td>
+                    <td>shiva@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal5">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal5" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Shiva</td>
+                                                    <td>ECE</td>
+                                                    <td>880</td>
+                                                    <td>88.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Phani</td>
+                    <td>09845654323</td>
+                    <td>phani@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal2">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>phani</td>
+                                                    <td>ECE</td>
+                                                    <td>880</td>
+                                                    <td>88.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>pranay</td>
+                    <td>09845675345</td>
+                    <td>pranay@vbm.com</td>
+                    <td>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-info mr-3" data-toggle="modal"
+                            data-target="#exampleModal2">
+                            View
+                        </button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Edit</button>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade bd-example-modal-lg" id="exampleModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-center" id="exampleModalLabel">Student Inforamation
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Branch</th>
+                                                    <th>Marks</th>
+                                                    <th>Percentage</th>
+                                                    <th>Grade</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Shiva</td>
+                                                    <td>ECE</td>
+                                                    <td>880</td>
+                                                    <td>88.6%</td>
+                                                    <td>A+</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

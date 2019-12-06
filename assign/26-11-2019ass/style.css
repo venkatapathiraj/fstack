@@ -1,0 +1,24 @@
+.col-md-1,.col-md-10{
+    background: #53E0BC;
+    
+}
+
+.col-md-4{
+    background: #75DA8B;
+    height: 200px;
+    max-width: 28.5%;
+    max-height: 200px;
+    
+}
+.col-md-6{
+    background: #F4C724;
+    min-height: 200px;
+    max-width: 48.5%;
+}
+.col-md-12{
+    height: 200px;
+    
+}
+a[href="#"]{
+    color:white;
+}

@@ -1,0 +1,50 @@
+.set{
+    max-width: 20%;
+   
+}
+.set-r{
+    max-width: 80%;
+    margin-right: 0px;
+    
+}
+.siz{
+    font-size: 50px;
+}
+.txts{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-weight: 100 !important;
+}
+td{
+    font-family: "Raleway", sans-serif;
+}
+.fns{
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+
+}
+small{
+    font-size: 15px;
+}
+.tr:hover{
+    background: blue;
+}
+.bog{
+    border-bottom:5px solid green;
+}
+.bor{
+    border-bottom:5px solid red;
+}
+.boy{
+    border-bottom:5px solid yellow;
+}
+.zid{
+    z-index: 1;
+}
+li{
+ font-size: 20px;   
+}
+li:hover{
+    background:aliceblue;
+    color: black;
+}

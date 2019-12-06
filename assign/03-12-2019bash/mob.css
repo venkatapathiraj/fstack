@@ -1,0 +1,75 @@
+.opc{
+    opacity: .1;
+    margin-top: 60px;
+    height: 250px;
+}
+.opr{
+    opacity: .1;
+    
+}
+.moto{
+    text-align: center;
+    border: none;
+    background: none;
+    transform: translateY(100px);
+}
+.zid{
+    z-index: 1;
+    top:0px;
+    opacity: .7;
+    background: linear-gradient(45deg, #2bdc9d, #EEC213);
+
+}
+.rou{
+    opacity:.8;
+    width: 90px;
+    height: 90px;
+    padding: 24px;
+    border-radius: 50%;
+    top: -45px;
+    background: linear-gradient(45deg, #2bdc9d, #EEC213);
+    box-shadow: 0px 1px 10px 3px lightgrey;
+}
+.siz{
+    font-size: 40px !important;
+    color: darkslategray !important;
+}
+.hov:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s;
+    background: linear-gradient(45deg, #2bdc9d, #EEC213);
+    color: white !important;
+    box-shadow: 0px 1px 7px 3px lightgray;
+}
+.hor:hover{
+    color: white !important;
+}
+.mar{
+    margin-top: 450px;
+}
+.stt{
+    padding: .5rem 1rem .5rem 6.5rem;
+    margin-left: -3rem;
+    background: linear-gradient(90deg, #5eeebb,#EEC213 );
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    color:white !important;
+    width: 267px;
+    height: 40px;
+}
+.abs{
+    top: 35px;
+    left: 30px;
+
+}
+.mari{
+    margin-right: 8px;
+}
+.add{
+    padding: 2rem;
+    background: linear-gradient(45deg, #2bdc9d, #EEC213);
+    height: 100%;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    height: 298px;
+}
