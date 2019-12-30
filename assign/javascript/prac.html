@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello world</h1>
+</body>
+<script>
+    var add = document.createElement('h2')
+    add.textContent='hey! here im created new h2 tag'
+    document.body.appendChild(add);
+    var canvas = document.createElement('canvas');
+    canvas.width=500;
+    canvas.height=300;
+    var ctx = canvas.getContext('2d')
+    ctx.font='30px cursive';
+    ctx.fillText('hello world',50,50);
+    document.body.appendChild(canvas)
+    var img = new Image();
+    img.src='https://www.jimclickfordgreenvalley.com/inventoryphotos/5132/1fa6p8jz3k5551682/sp/1.jpg?height=400'
+    document.body.appendChild(img)
+</script>
+</html>
